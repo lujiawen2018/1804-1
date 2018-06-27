@@ -1,0 +1,21 @@
+1.[root@server0 ~]# cat hao.txt
+hello world
+niu  ben and  da  chui
+nihao zhu  xiao dpng
+[root@server0 ~]# sed -r  's/^(.)(.)(.*)(.)(.)$/\1\4\3\2\5/'  hao.txt
+hlllo wored
+nuu  ben and  da  chii
+nnhao zhu  xiao dpig
+2.多媒体文件不能压缩
+jpg，flv,mp3
+大文件不压缩mp4
+3.db_engines.com
+4.数据库放描述性信息，不放图片视频
+5.nosql  (kv数据库 key=value )
+6.tomcat是java写的程序
+7.nginx 调度器web(perl/python/php)
+8.tomcat(java) websphere  weblogic jboss
+9.svnserve -d -r /var/svn/project
+客户端：  svn：//192.168.2.100/
+ systemctl start svnserve 
+客户端： svn：//192.168.2.100/var/svn/project
